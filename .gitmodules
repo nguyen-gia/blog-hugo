@@ -1,0 +1,4 @@
+[submodule "blog/public"]
+	path = blog/public
+	url = git@github.com:nguyengiabk/nguyengiabk.github.io.git
+	branch = master
