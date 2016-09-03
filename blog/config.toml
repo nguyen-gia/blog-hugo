@@ -1,12 +1,20 @@
-baseurl = "http://nguyengiabk.github.io/"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "https://nguyengiabk.github.io/"
 languageCode = "en-us"
 title = "Nguyen Gia's blog"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = "nguyen-gias-blog"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
 paginate = 10
+
+pygmentsUseClasses = true
+PygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsStyle = "monokai"
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
